@@ -1,0 +1,499 @@
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Base Styles  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; 
+  line-height: 1.6;
+  font-weight: 300;
+  background-color:#f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+  color: #010101; overflow-x: hidden;}
+
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Typography  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 600; color:#6c757e}
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+p {
+  margin-top: 0; }
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Links  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+a {
+  color: #E30000; text-decoration:none }
+a:hover {
+  color: #303030; }
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Buttons  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	
+display: inline-block;
+	
+padding: 5px 20px;
+	
+color: #fff;
+	
+text-align: center;
+	
+font-size: 13px;
+	
+font-weight: 500;
+	
+line-height: 28px;
+	
+letter-spacing:1px;
+	
+text-transform:uppercase;
+	
+text-decoration: none;
+	
+white-space: nowrap;
+	
+cursor: pointer;
+	
+box-sizing: border-box;
+	
+border:none;
+	
+background-color: #6D6E70;
+	
+border-radius: 5px;
+	
+-webkit-transition: all 0.45s ease;
+	
+transition: all 0.45s ease;
+	
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+ 
+ background-color: #282828;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #D52128;
+  border-color: #D52128;
+  }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #48884B;
+  border-color: #076F10 ; }
+
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Forms  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="password"],
+textarea,
+select {
+	width:100%; background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #C6C6C6;
+ 
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;  }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #ef0022;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+   }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+
+
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Tables  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+
+.table-content table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: solid 1px #bfbfbf;
+}
+.table-content tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.table-content table tr:first-child td:first-child {
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.table-content table tr:first-child td:last-child {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.table-content tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.table-content tr:hover td {
+}
+.table-content tr:nth-child(odd) {
+	background-color: #F1F1F1;
+}
+.table-content tr:nth-child(even) {
+	background-color: #ffffff;
+}
+.table-content td {
+	vertical-align: middle;
+	border: 1px solid #E4E4E4;
+	border-width: 0px 1px 1px 0px;
+	padding: 8px 5px;
+	font-weight: normal;
+	color: #000000;
+	font-size: 14px;
+}
+.table-content tr:last-child td {
+	border-width: 0px 1px 0px 0px;
+}
+.table-content tr td:last-child {
+	border-width: 0px 0px 1px 0px;
+}
+.table-content tr:last-child td:last-child {
+	border-width: 0px 0px 0px 0px;
+}
+.table-content tr:first-child td {
+    background-color: #D4D4D4;
+    
+    text-transform: capitalize; font-weight:600;
+}
+.table-content tr:first-child:hover td {
+/*background-color: #ff0000;*/
+}
+.table-content tr:first-child td:first-child {
+/*border-width: 0px 0px 1px 0px;*/
+}
+.table-content tr:first-child td:last-child {
+	border-width: 0px 0px 1px 1px;
+}
+.table-content input, .table-content textarea, .table-content select, .table-content fieldset, .table-content form { margin:0; }
+
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    margin  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Clear  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+.container:after,
+.wrapper:after,
+.row:after,
+.cls {
+  content: "";
+  display: table;
+  clear: both; 
+  }
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Grid  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+section, .section {
+	width: 100%;
+	float: left;
+}
+.full-width {
+	width: 100%;
+}
+.container,
+.wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 2000px;
+	margin: auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.columns, .nmcolumns {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+.fr { float:right}
+.fl { float:left}
+
+
+@media (min-width: 550px) {
+  
+  .columns {
+    margin-left: 4%; }
+	
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.columns              { width: 30.6666666667%; }
+  .two-thirds.columns             { width: 65.3333333333%; }
+
+  .one-half.columns               { width: 48%; }
+  
+  
+  
+  
+ 
+  .one.nmcolumns                    { width: 8.33333333333%; }
+  .two.nmcolumns                    { width: 16.66666666666%; }
+  .three.nmcolumns                  { width: 24.99999999999%; }
+  .four.nmcolumns                   { width: 33.33333333332%; }
+  .five.nmcolumns                   { width: 41.66666666665%; }
+  .six.nmcolumns                    { width: 49.99999999998%; }
+  .seven.nmcolumns                  { width: 58.33333333331%; }
+  .eight.nmcolumns                  { width: 66.66666666664%; }
+  .nine.nmcolumns                   { width: 74.99999999997%; }
+  .ten.nmcolumns                    { width: 83.3333333333%; }
+  .eleven.nmcolumns                 { width: 91.66666666663%; }
+  .twelve.nmcolumns                 { width: 100%;}
+
+}
+
+/*  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    Media Queries  Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ    */
+
+@media only screen 
+
+and (min-device-width : 320px) 
+
+and (max-device-width : 480px) {
+
+	.table-content {
+    width: 100%;
+    overflow: scroll;
+}
+
+
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 321px) {
+
+/* Smartphones (landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (max-width : 320px) {
+
+/* Smartphones (portrait) ----------- */
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) {
+
+/* iPads (portrait and landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) 
+
+and (orientation : landscape) {
+
+/* iPads (landscape) ----------- */
+
+
+
+}
+
+
+
+
+
+@media only screen 
+
+and (min-device-width : 768px) 
+
+and (max-device-width : 1024px) 
+
+and (orientation : portrait) {
+
+/* iPads (portrait) ----------- */
+
+
+
+
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 1200px) {
+
+/* Desktops and laptops ----------- */
+
+
+
+}
+
+
+
+@media only screen 
+
+and (min-width : 1700px) {
+
+/* Large screens ----------- */
+
+
+
+}
+
+
+
+@media
+
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+
+only screen and (min-device-pixel-ratio : 1.5) {
+
+/* iPhone 4 ----------- */
+
+
+
+}
